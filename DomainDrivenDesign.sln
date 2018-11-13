@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainDrivenDesign", "src\DomainDrivenDesign.csproj", "{7FD2AF0D-161C-4E0A-816F-33A22A6BC1E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{21CEB0A9-5721-44C9-B57C-C010F0592D9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{19B656A0-F703-4AA6-A235-7CC77A51B308}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainDrivenDesignTests", "test\DomainDrivenDesignTests\DomainDrivenDesignTests.csproj", "{4198D920-AE16-4352-A4E6-D7407F40937B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C47BDEB9-7033-4D57-B620-EDCE5DB8D67F}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FD2AF0D-161C-4E0A-816F-33A22A6BC1E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FD2AF0D-161C-4E0A-816F-33A22A6BC1E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FD2AF0D-161C-4E0A-816F-33A22A6BC1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FD2AF0D-161C-4E0A-816F-33A22A6BC1E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4198D920-AE16-4352-A4E6-D7407F40937B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4198D920-AE16-4352-A4E6-D7407F40937B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4198D920-AE16-4352-A4E6-D7407F40937B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4198D920-AE16-4352-A4E6-D7407F40937B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7FD2AF0D-161C-4E0A-816F-33A22A6BC1E2} = {21CEB0A9-5721-44C9-B57C-C010F0592D9B}
+		{4198D920-AE16-4352-A4E6-D7407F40937B} = {19B656A0-F703-4AA6-A235-7CC77A51B308}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F609F6B1-ADA3-4B32-A400-8380FE1BC68B}
+	EndGlobalSection
+EndGlobal

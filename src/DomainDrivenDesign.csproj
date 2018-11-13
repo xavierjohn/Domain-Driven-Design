@@ -3,9 +3,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>CWiz.DomainDrivenDesign</AssemblyName>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageLicenseUrl>https://github.com/xavierjohn/Railway-oriented-programming/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/xavierjohn/Railway-oriented-programming</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/xavierjohn/Railway-oriented-programming</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/xavierjohn/Domain-Driven-Design/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/xavierjohn/Domain-Driven-Design</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/xavierjohn/Domain-Driven-Design</RepositoryUrl>
     <RepositoryType>C#</RepositoryType>
     <Description>Domain Driven Design primitives</Description>
     <Copyright>2018 Xavier John</Copyright>

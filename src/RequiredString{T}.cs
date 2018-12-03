@@ -22,9 +22,7 @@ namespace CWiz.DomainDrivenDesign
         public static Result<T> Create(Maybe<string> requiredStringOrNothing)
         {
             return requiredStringOrNothing
-                .ToResult(cannotBeEmptyError)
-                .OnSuccess(name => name.Trim())
-                .Ensure(name => name != string.Empty, cannotBeEmptyError)
+                .EnsureNotNullOrWhiteSpace(cannotBeEmptyError)
                 .Map(name => CreateInstance.Value(name));
         }
 

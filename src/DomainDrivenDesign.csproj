@@ -3,7 +3,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>CWiz.DomainDrivenDesign</AssemblyName>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageLicenseUrl>https://github.com/xavierjohn/Domain-Driven-Design/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/xavierjohn/Domain-Driven-Design</PackageProjectUrl>
     <RepositoryUrl>https://github.com/xavierjohn/Domain-Driven-Design</RepositoryUrl>
     <RepositoryType>C#</RepositoryType>

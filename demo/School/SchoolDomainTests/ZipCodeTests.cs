@@ -1,3 +1,4 @@
+using CWiz.RailwayOrientedProgramming;
 using FluentAssertions;
 using SchoolDomain;
 using System;
@@ -10,9 +11,9 @@ namespace SchoolDomainTests
         [Fact]
         public void ZipCode_can_be_created()
         {
-            var zipCodeResult = ZipCode.Create("98052");
+            Result<ZipCode> zipCodeResult = ZipCode.Create("98052");
             zipCodeResult.IsSuccess.Should().BeTrue();
-            ZipCode zipCode = zipCodeResult.Value;
+            ZipCode zipCode = zipCodeResult;
             zipCode.Value.Length.Should().Be(5);
         }
 
@@ -33,6 +34,16 @@ namespace SchoolDomainTests
             zipCodeResult.IsFailure.Should().BeTrue();
             zipCodeResult.Errors[0].Field.Should().Be(nameof(ZipCode));
             zipCodeResult.Errors[0].Message.Should().Be($"{nameof(ZipCode)} is not valid.");
+        }
+
+        [Fact]
+        public void ZipCode_cannot_be_changed()
+        {
+            var zipCodeResult = ZipCode.Create("98052");
+            zipCodeResult.IsSuccess.Should().BeTrue();
+            string strZipCode = zipCodeResult.Value;
+            strZipCode = "98023"; // Proof: strings are immutable.
+            zipCodeResult.Value.Value.Should().Be("98052");
         }
     }
 }
